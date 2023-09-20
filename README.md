@@ -15,8 +15,5 @@ For churn prediction, consider a star schema with a central fact table represent
 4)Scripts for ETL Job:
 ETL scripts should include steps for extracting data using SQL queries, Transforming data according to the warehouse schema, and loading into the warehouse using appropriate SQL statements or ETL tool functions.
 
-5)Cloud Tools Selection:
-Cloud tools to be selected based on factors like ease of integration, cost, scalability, and familiarity. Amazon Redshift and AWS Glue are popular for ETL, and Google BigQuery for the data warehouse can be a good choice too.
-
-6)Architecture Diagram:
+5)Architecture Diagram:
 an Architecture diagram illustrating the flow of data from source databases through the ETL pipeline to the data warehouse, emphasizing data transformation and storage stages.
