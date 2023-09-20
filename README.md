@@ -6,11 +6,11 @@ stream_logs capturing streaming activity : a NoSQL database like MongoDB, for fl
 _donations : a relational database like MySQL/PostgreSQL, structured financial data
 
 2)Data Warehouse and ETL:
-Data warehouse : cloud-based solutions like Google BigQuery/Snowflake for scalability and performance.
+Data warehouse : cloud-based solutions like Google BigQuery/Snowflake/Amazon Red shift for scalability and performance.
 ETL pipeline design involves extracting data from various databases, transforming it (e.g., aggregations, cleaning) and loading into the data warehouse using ETL tools like Apache Airflow, Talend, or custom scripts.
 
 3)Optimized Schema for Churn Analysis:
-For churn prediction, consider a star schema with a central fact table representing subscriptions and dimensional tables for users, plans, and time for efficient churn analysis.
+For churn prediction, consider a schema with a central fact table representing subscriptions and dimensional tables for users, plans, and time for efficient churn analysis.
 
 4)Scripts for ETL Job:
 ETL scripts should include steps for extracting data using SQL queries, Transforming data according to the warehouse schema, and loading into the warehouse using appropriate SQL statements or ETL tool functions.
